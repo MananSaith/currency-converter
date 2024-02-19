@@ -1,15 +1,17 @@
 import 'package:currency_converter/ccmpage.dart';
 import 'package:flutter/material.dart';
-void main(){
+void mani(){
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget{
   const MyApp({super.key});
   @override
-   Widget build(BuildContext context){
-        return  const MaterialApp(
-          home: currency_converter_material_page(),
-        );
-   }
+  Widget build(BuildContext context){
 
+return const MaterialApp(
+  home: c_c_m_p()
+);
+
+  }
 }
