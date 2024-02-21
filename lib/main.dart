@@ -1,7 +1,8 @@
 import 'package:currency_converter/ccmpage.dart';
 import 'package:flutter/material.dart';
-void mani(){
+void main(){
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget{
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
 
 return const MaterialApp(
-  home: c_c_m_p()
+  debugShowCheckedModeBanner: false,
+  home: CurrencyConverterMaterialPage(),
 );
 
   }
